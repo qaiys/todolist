@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #new-task {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #tasks li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: whitesmoke;
+  }
+  
+  #tasks .delete {
+    margin-left: auto;
+    background-color: tomato;
+    color: white;
+    padding
+  }  
